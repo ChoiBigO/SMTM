@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Me The Money"
+            android:id="@+id/tvhello"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/main_edit"
+            android:hint="email"
+            android:textColorHint="#D8D8D8"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvhello"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="17dp"
+
+            />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/main_edit"
+            android:hint="Password"
+            android:textColorHint="#D8D8D8"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="17dp"
+            android:inputType="textPassword"
+            />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/etPass"
+            android:background="@drawable/main_btn"
+            android:layout_marginBottom="7dp"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btnLogin"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/main_btn"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="CBigO96  j2_yeon  Kimutak"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btnReg"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"
+            />
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/pbLogin"
+        android:visibility="gone"
+
+        />
+
+</RelativeLayout>

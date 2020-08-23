@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--상단 공백-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        android:background="#1a90f0"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="S M T M"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="13dp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <!--중간 web-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:orientation="vertical"
+        android:background="#1a90f0"
+        android:id="@+id/webview_layout"
+
+        >
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <!--버튼 공간-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#e4e4e4"
+        android:id="@+id/main_menu"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/rec_com"
+                android:text="회사추천"
+                android:background="@drawable/rec_icon"
+                android:layout_marginRight="2px"
+                android:layout_marginBottom="4px"
+                android:layout_marginTop="4px"
+                android:paddingTop="200px"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/menu_chat_btn"
+                android:text="채팅"
+                android:background="@drawable/chat_icon"
+                android:layout_marginLeft="2px"
+                android:layout_marginBottom="4px"
+                android:layout_marginTop="4px"
+                android:paddingTop="200px"
+                style="?android:attr/borderlessButtonStyle"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/stock_icon"
+                android:paddingTop="200px"
+                android:layout_marginRight="2px"
+                android:layout_marginBottom="4px"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="ELS 추천"
+                android:id="@+id/rec_els"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/how_icon"
+                style="?android:attr/borderlessButtonStyle"
+                android:paddingTop="200px"
+                android:layout_marginLeft="2px"
+                android:layout_marginBottom="4px"
+                android:text="이용방법"
+                android:id="@+id/HowBtn"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

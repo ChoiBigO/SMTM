@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SMTM</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">friends</string>
+    <string name="title_notifications">profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">HOME</string>
+    <string name="friend_fragment">friend</string>
+    <string name="profile_fragment">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

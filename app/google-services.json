@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461362642106",
+    "firebase_url": "https://chatbot-604b2.firebaseio.com",
+    "project_id": "chatbot-604b2",
+    "storage_bucket": "chatbot-604b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461362642106:android:56e0523bb9eef737",
+        "android_client_info": {
+          "package_name": "com.example.user.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461362642106-116rhergc7bff0li9tc2c0nt9dl5upaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVcZNCVqU6vC_8GVFT4JcqNcaNr6mc5Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461362642106-116rhergc7bff0li9tc2c0nt9dl5upaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
